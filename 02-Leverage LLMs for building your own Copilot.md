@@ -1,6 +1,7 @@
-#How to Leverage LLMs for Building Various Copilot Applications 
+# How to Leverage LLMs for Building Various Copilot Applications 
 
-##Base Model Knowledge: The LLM base models are trained on millions of data available publicly and hence can be used as-is for building copilots for many of the use cases. This is possible by the technique of prompt engineering – with simple prompts or with few shot learning (providing examples) 
+## Base Model Knowledge 
+The LLM base models are trained on millions of data available publicly and hence can be used as-is for building copilots for many of the use cases. This is possible by the technique of prompt engineering – with simple prompts or with few shot learning (providing examples) 
 
 Few of the possibilities (but not limited to) of building your own copilots that can do: 
 
@@ -38,13 +39,14 @@ Execute tasks like summarizing text data like reviews about products and service
 
  
 
-##LLM On/With your data 
+## LLM On/With your data 
 
-###RAG pattern: 
+### RAG pattern: 
 
 The RAG (Retrieval-Augmented Generation) pattern used with Large Language Models (LLMs) like GPT-3.5, GPT-4 is an approach that enhances the knowledge of generative models by combining with additional knowledge without training. This technique allows the LLM to access a broader range of information than what is contained in its training data, improving its performance in tasks that require specific, detailed, or up-to-date knowledge.
 
 #### Approach 1
+
 ** RAG stages **
 
 ![rag](content/imgs/rag.png)
@@ -126,8 +128,8 @@ For a comprehensive list of strategies and tactics for prompting, you can refer 
 
 ### Fine-tuning (To do) 
 
-####Full finetuning (To do)
+#### Full finetuning (To do)
 
-####Parameter efficient Fine- tuning (To do)
+#### Parameter efficient Fine- tuning (To do)
 
 ### Hybrid approach (RAG + Fine-tuning) (To do) 

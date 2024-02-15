@@ -24,8 +24,8 @@ For more detailed information on Call Center, Support, and Process Automation, y
 
 The content is organized into 
 
-1. [Introduction](Introduction.md)
-2. [How to Leverage LLMs for Building Various Copilot Applications](Leverage LLMs for building your own Copilot.md)
-3. [Choice of SDKs/Frameworks/ Orchestrators](SDKs, Frameworks and Orchestrators.md)
-4. [Choice of Vector DBs] (Vector DBs.md)
-5. [Build low code /no code copilots] (Build low code-no code copilots.md)
+1. [Introduction](01-Introduction.md)
+2. [How to Leverage LLMs for Building Various Copilot Applications](02-Leverage%20LLMs%20for%20building%20your%20own%20Copilot.md)
+3. [Choice of SDKs/Frameworks/ Orchestrators](03-SDKs%2C%20Frameworks%20and%20Orchestrators.md)
+4. [Choice of Vector DBs](04-Vector%20DBs.md)
+5. [Build low code /no code copilots](05-Build%20low%20code-no%20code%20copilots.md)

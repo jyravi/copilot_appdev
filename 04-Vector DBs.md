@@ -1,4 +1,4 @@
-# Vector DB
+# Vector DBs
 
 Most applications are built on traditional databases (relational databases) and with the emergence of big data, a new set of databases emerged which were classified as NoSql databases. With the boom in GenAI and LLMs, another kind of database gained popularity – vector databases.
 
