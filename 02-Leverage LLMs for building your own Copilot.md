@@ -5,7 +5,7 @@ The LLM base models are trained on millions of data available publicly and hence
 
 Few of the possibilities (but not limited to) of building your own copilots that can do: 
 
-- Code generation:  
+- **Code generation**:  
 
 Generate code snippets or complete functions based on natural language queries or specifications. 
 
@@ -15,25 +15,25 @@ Check for time complexity of the code.
 
 Generate documentation for the code. 
 
-- Content creation:  
+- **Content creation**:  
 
 Create engaging and informative content for blogs, websites, social media, or newsletters based on keywords, topics, or prompts.  
 
 Generate content with linguistic fluency and diversity, while the user can provide style, tone, and audience awareness. 
 
-- Data analysis:  
+- **Data analysis**:  
 
 Execute data analysis tasks such as data cleaning, visualization, exploration, or modeling based on natural language commands or questions.  
 
 Provide general statistical analysis and report generation from the structured data provided by the user along with suitable prompting. 
 
-- Text mining:  
+- **Text mining**:  
 
 Extract relevant entities, concepts, relations, or events from a given text or document, such as names, dates, locations, topics, sentiments, or opinions.  
 
  
 
-- Text Categorization & Summarization: 
+- **Text Categorization & Summarization**: 
 
 Execute tasks like summarizing text data like reviews about products and services, categorization into different segments based on the description/text data associated and so on. 
 
@@ -47,7 +47,7 @@ The RAG (Retrieval-Augmented Generation) pattern used with Large Language Models
 
 #### Approach 1
 
-** RAG stages **
+**Stages**
 
 ![rag](content/imgs/rag.png)
 
@@ -124,12 +124,22 @@ The choice of the search types – **Text, Vector search** or **Hybrid Search** 
 For a comprehensive list of strategies and tactics for prompting, you can refer to the [Prompt Engineering by OpenAI](https://platform.openai.com/docs/guides/prompt-engineering) guide. Additionally, you can find a compilation of prompting techniques in one place at the [Prompt Engineering Guide](https://www.promptingguide.ai/).
  
 
-#### Using Function Calling (To do) 
+#### Using Function Calling 
 
-### Fine-tuning (To do) 
+(To do) 
 
-#### Full finetuning (To do)
+### Fine-tuning 
 
-#### Parameter efficient Fine- tuning (To do)
+(To do) 
 
-### Hybrid approach (RAG + Fine-tuning) (To do) 
+#### Full finetuning 
+
+(To do)
+
+#### Parameter efficient Fine- tuning 
+
+(To do)
+
+### Hybrid approach (RAG + Fine-tuning) 
+
+(To do) 

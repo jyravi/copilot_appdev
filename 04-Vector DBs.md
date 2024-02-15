@@ -1,5 +1,7 @@
 # Vector DBs
 
+## Introduction
+
 Most applications are built on traditional databases (relational databases) and with the emergence of big data, a new set of databases emerged which were classified as NoSql databases. With the boom in GenAI and LLMs, another kind of database gained popularity – vector databases.
 
 A vector database is a database which is optimized for storing and querying high dimensional vector data. Vectors, in this context, are arrays of numbers that represent various forms of data like text, images etc. in a high-dimensional space. This makes vector databases extremely useful handling unstructured data for applications that require similarity-searches, recommendation systems, natural language processing tasks etc. These databases are also optimized for computationally intensive tasks. Vector databases are commonly used for RAG pattern and Semantic Caching.
@@ -34,7 +36,10 @@ There are three major steps involved in a vector database for optimization and f
     
     This is an optional step that can be used to improve the accuracy and relevance of the results retrieved after querying. It might involve re-ranking, filtering, or aggregating the nearest neighbors that are retrieved by indexing and searching methods.
 
-Let us evaluate some popular vector DBs which will help in choosing the right vector database to suit the use case requirements.
+
+## How to choose Vector DBs
+
+Let us evaluate some popular vector DBs which will help in choosing the right vector database for your requirements.
 
 1. **Pinecone:** available as cloud service. Supports Python, JavaScript/TypeScript, Rest API
     1. Query Performance:Proper [choice of the pod type and size](https://docs.pinecone.io/docs/choosing-index-type-and-size) and replicas are a major factor which determines the query performance factors like QPS and Latency.

@@ -2,9 +2,9 @@ This repository serves as a documentation of the learning journey for applicatio
  
 ## Conversational Bot
 
-Conversational bots often utilize LLMs to interact with end users. These bots receive user queries and generate responses using LLMs. However, LLMs are not domain-specific by default. To make LLMs domain-specific, developers employ the [RAG pattern](#rag-pattern).  Addutionally to RAG pattern developerd will also need to develop bot.  Bot could be developed usign [Bot Framework SDK](https://learn.microsoft.com/azure/bot-service/bot-service-overview?view=azure-bot-service-4.0).
+Conversational bots often utilize LLMs to interact with end users. These bots receive user queries and generate responses using LLMs. However, LLMs are not domain-specific by default. To make LLMs domain-specific, developers employ the [RAG pattern](02-Leverage%20LLMs%20for%20building%20your%20own%20Copilot.md#rag-pattern).  Addutionally to RAG pattern developerd will also need to develop bot.  Bot could be developed usign [Bot Framework SDK](https://learn.microsoft.com/azure/bot-service/bot-service-overview?view=azure-bot-service-4.0).
 
-As an alternative, developers can deliver conversational bot with no-code/low-code approach using [Microsoft Copilot Studio](#microsoft-copilot-studio---no-code--low-code-development).
+As an alternative, developers can deliver conversational bot with no-code/low-code approach using [Microsoft Copilot Studio](05-Build%20low%20code-no%20code%20copilots.md).
 
 ## Process Automation
 
@@ -14,11 +14,11 @@ LLMs are being utilized in tasks traditionally performed by humans. For instance
 
 The same approach can be applied to other processes, such as checking if documents meet specific requirements or policies.
 
-For more information on how to implement these scenarios, please refer to the [SDKs / Frameworks](#sdks--frameworks) section and the [Orchestration / Agents](#orchestration--agents) section later in this document.
+For more information on how to implement these scenarios, please refer to the [SDKs / Frameworks](03-SDKs%2C%20Frameworks%20and%20Orchestrators.md#sdks--frameworks) section and the [Orchestration / Agents](https://github.com/jyravi/copilot_appdev/blob/main/03-SDKs%2C%20Frameworks%20and%20Orchestrators.md) section later in this document.
 
 ## Decisigion Tree or Flow Orchestraction
 
-In call center solutions, Large Language Models (LLMs) can be utilized to determine the intent of customer queries. This intent can then be used to route the call to the appropriate agent or flow. LLMs can also generate responses to customers. If a customer wants to execute an action, the LLM can collect the necessary details and call a corresponding function.  Similarly as in Process Automation scenario, this can be implemented with [SDKs / Frameworks](#sdks--frameworks) and [Orchestration / Agents](#orchestration--agents).
+In call center solutions, Large Language Models (LLMs) can be utilized to determine the intent of customer queries. This intent can then be used to route the call to the appropriate agent or flow. LLMs can also generate responses to customers. If a customer wants to execute an action, the LLM can collect the necessary details and call a corresponding function.  Similarly as in Process Automation scenario, this can be implemented with [SDKs / Frameworks](#sdks--frameworks) and [Orchestration / Agents](https://github.com/jyravi/copilot_appdev/blob/main/03-SDKs%2C%20Frameworks%20and%20Orchestrators.md#orchestrators-to-do).
 
 For more detailed information on Call Center, Support, and Process Automation, you can refer to the [CoE.ContentPack.CallCenter](https://github.com/RobertEichenseer/CoE.ContentPack.CallCenter) repository.
 
