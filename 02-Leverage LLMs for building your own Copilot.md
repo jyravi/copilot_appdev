@@ -124,7 +124,9 @@ The choice of the search types – **Text, Vector search** or **Hybrid Search** 
 For a comprehensive list of strategies and tactics for prompting, you can refer to the [Prompt Engineering by OpenAI](https://platform.openai.com/docs/guides/prompt-engineering) guide. Additionally, you can find a compilation of prompting techniques in one place at the [Prompt Engineering Guide](https://www.promptingguide.ai/).
  
 
-#### Using Function Calling 
+#### Approach 2 
+
+**Using Function Calling**
 
 (To do) 
 
